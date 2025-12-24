@@ -9,7 +9,7 @@ Model yang dipakai pada website adalah **LSTM** dan sudah **disimpan** dalam fil
 
 ---
 
-## Isi Repository (Versi Minimal)
+## Isi Repository 
 Repository ini berisi file inti berikut:
 - `app.py` → Source code Streamlit Dashboard
 - `lstm_label_komen.keras` → Model LSTM tersimpan (Keras/TensorFlow)
@@ -87,7 +87,7 @@ Ringkasan hasil akhir:
 
 ---
 
-## Cara Menjalankan Website Secara Lokal (Laptop/VSCode)
+## Cara Menjalankan Website Secara Lokal (VSCode)
 
 ### Prasyarat
 - **Python 3.11.x** (disarankan, agar kompatibel dengan TensorFlow)
@@ -100,7 +100,7 @@ Contoh (Windows PowerShell):
 cd "C:\Users\...\sentimen-dashboard"
 ```
 
-### 2) Buat virtual environment (disarankan)
+### 2) Buat virtual environment 
 ```powershell
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -139,7 +139,7 @@ Catatan penting:
 - ngrok membutuhkan akun terverifikasi & **authtoken**.
 - Link ngrok bersifat **sementara** dan dapat berubah jika runtime restart.
 
-### Link Live Demo (contoh)
+### Link Live Demo 
 - https://catchable-unenlightenedly-lennie.ngrok-free.dev/
 
 ---
