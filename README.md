@@ -79,9 +79,9 @@ Metrik yang dipakai untuk perbandingan:
 Ringkasan hasil akhir (isi sesuai hasil eksperimen terakhir kamu):
 | Model | Accuracy | MacroF1 |
 |------|----------|---------|
-| LSTM (Base NN) | (isi) | (isi) |
-| IndoBERT (Pretrained) | (isi) | (isi) |
-| DistilBERT (Pretrained) | (isi) | (isi) |
+| LSTM (Base NN) | (0.465097) | (0.207198) |
+| IndoBERT (Pretrained) | (0.275862) | (0.171360) |
+| DistilBERT (Pretrained) | (0.080740) | (0.087006) |
 
 **Kesimpulan:** Model terbaik dipilih berdasarkan **MacroF1** + analisis confusion matrix.  
 Pada implementasi website, digunakan model **LSTM** (model tersimpan) agar dashboard bisa berjalan tanpa training ulang.
