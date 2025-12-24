@@ -56,7 +56,7 @@ Preprocessing yang digunakan saat training (ringkas):
 
 ---
 
-## Model yang Digunakan (3 Model pada Notebook)
+## Model yang Digunakan 
 Pada eksperimen di notebook, dilakukan pelatihan dan evaluasi **3 model**:
 1. **LSTM (Base Neural Network)** → dipakai sebagai implementasi dashboard (model tersimpan `lstm_label_komen.keras`)
 2. **IndoBERT (Pretrained Transformer)**
