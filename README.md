@@ -76,15 +76,14 @@ Metrik yang dipakai untuk perbandingan:
 - **Accuracy**
 - **Macro F1-score (MacroF1)** → rata-rata F1 tiap kelas (lebih adil untuk data imbalanced)
 
-Ringkasan hasil akhir (isi sesuai hasil eksperimen terakhir kamu):
+Ringkasan hasil akhir:
 | Model | Accuracy | MacroF1 |
 |------|----------|---------|
 | LSTM (Base NN) | (0.465097) | (0.207198) |
 | IndoBERT (Pretrained) | (0.275862) | (0.171360) |
 | DistilBERT (Pretrained) | (0.080740) | (0.087006) |
 
-**Kesimpulan:** Model terbaik dipilih berdasarkan **MacroF1** + analisis confusion matrix.  
-Pada implementasi website, digunakan model **LSTM** (model tersimpan) agar dashboard bisa berjalan tanpa training ulang.
+**Kesimpulan:** Model terbaik berdasarkan **ACCURACY** dan **MACROF1** adalah **LSTM** oleh sebab itu dipilihlah algoritma **LSTM** sebagai algoritma penjalan DASHBOARD
 
 ---
 
