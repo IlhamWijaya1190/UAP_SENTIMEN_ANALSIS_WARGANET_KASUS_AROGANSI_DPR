@@ -144,15 +144,6 @@ Catatan penting:
 
 ---
 
-## Catatan Implementasi
-- Dashboard **tidak melakukan training**. Dashboard hanya:
-  1) load `lstm_label_komen.keras`
-  2) load `labels.json`
-  3) menerima input teks dari user
-  4) menampilkan prediksi label (dan opsional probabilitas)
-
----
-
 ## Author
 Nama: **Ilham Wijaya Kusuma**  
 NIM: **202210370311199**
