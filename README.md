@@ -38,8 +38,7 @@ Kolom yang digunakan:
 Catatan:
 - Dataset bersifat **imbalanced** (kelas NEGATIF dominan). Karena itu evaluasi juga memakai metrik **Macro F1-score** agar penilaian lebih adil antar kelas.
 
-Jika dataset tidak diupload ke repo (ukuran/privasi), isi tautan di sini:
-- Link dataset: **(isi link Google Drive / Kaggle / dsb)**
+
 
 ---
 
